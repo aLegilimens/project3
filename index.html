@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet">
+        <script src="js/jquery-3.6.0.min.js"></script>
+
+        <title>Nurdžihana Šahinović - CV</title>
+    </head>
+    <body>
+        <div class="container-lg">
+            <div class="row justify-content-between">
+                <div class="col-md-4">
+
+                    <div class="border"></div>
+
+                    <div class="card" id="myCard" style="width: fit-content;">
+                        <img class="card-img-top" id="my_img" src="img/profile_pic.jpg" alt="Picture of me!">
+                        <div class="card-body">
+                            <h2 class="card-title" id="myName">Nurdžihana Šahinović</h2>
+                            <p class="card-text" id="introduction">
+                             Hello! I am a third year student at <a href="www.ius.edu.ba"><abbr title="International University of Sarajevo">IUS, </abbr></a>
+                             department of CSE (Computer Science and Engineering).  I am from Cazin, but currently residing in Sarajevo. 
+                             I love challenges so this internship would be a great opportunity for me to learn new things and test my knowledge!
+                            </p>
+                            <button class="button" id="msg">Message me!</button>
+                            <div class="modal" tabindex="-1" role="dialog" id="messageModal">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title">Send me a message!</h5>
+                                      <span class="close">&times;</span>
+                                    </div>
+                                    <div class="modal-body">
+                                      <p>
+                                        <input type="text" placeholder="First name: ">
+                                        <input type="text" placeholder="Last name: ">
+                                        <input type="text" placeholder="Type your message here!">
+                                    </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button class="button">Send</button>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="border"></div>
+                 
+                    <div id="contact">
+                        <h3 class="titles">Contact me!</h3>
+                        <p>
+                        <img src="img/house_icon.png" width="15px">
+                        <span class="contact_info">Address: </span> 221b Baker St. <br>
+                        <img src="img/mail_logo.jpg" width="17px">
+                        <span class="contact_info">Email: </sp> <a href="mailto:nurdzihanas@gmail.com">nurdzihanas@gmail.com</a> <br>
+                        <img src="img/phone_icon.jpg" width="15px">
+                        <span class="contact_info">Phone number: </span> 00 387 111 111 <br>
+                        <img src="img/ig_logo.png" width="15px">
+                        <span class="contact_info">Instagram: </span> Nurdžihana
+                        </p>
+                    </div>
+    
+                    <div class="border"></div>
+                </div>
+    
+                <div class="col-md-8" class="lh-lg">
+                   <button class="button" id="dark" onclick="darkMode()">Dark mode!</button>
+                   <h2 id="greeting"></h2>
+                   <h2 id="hours"></h2>
+                   <h2 id="add_info">Additional information</h2>
+                
+                   <h2 class="titles">Education</h2>
+                   <ul id="edu">
+                      <li><b>Bachelor: </b> <a href="https://www.ius.edu.ba"><i><abbr title="International University of Sarajevo">IUS</abbr></i></a></li>
+                      <li><b>High School: </b> <a href="http://medresa-cazin.ba/">Medresa "Džemaludin ef. Čaušević"</a></li>
+                      <li><b>Elementary school: </b> "Cazin II"</li>
+                   </ul>
+    
+                   <div class="border"></div>
+    
+                   <h2 class="titles">Skills</h2>
+                   <ul>
+                     <li id="prog_lang">Basic knowledge in: 
+                        <ul id="programming_lang">
+                            <li>Java</li>
+                            <li>C++</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                     </li>
+                     <li>
+                        Personal interests:
+                        <ul id="hobbies">
+                            <li>Reading</li>
+                            <li>Hiking</li>
+                            <li>Movies</li>
+                            <li>Cooking</li>
+                        </ul>
+                     </li>
+                     <li>Adaptability and fast learning</li>
+                    </ul>
+    
+                    <div class="border"></div>
+    
+                    <h2 class="titles">Languages</h2>
+                    <ul id="languages">
+                      <li>Bosnian - native language </li>
+                      <li>English - C1</li>
+                      <li>Turkish - B1</li>
+                      <li>Arabic - A1</li>
+                    </ul>
+                    <div class="border"></div>
+                    <button class="button" id="topB" onclick="goToTopFunc()">Top</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="js/script.js"></script>
+    <footer>
+        <figure class="text-center">
+            <blockquote class="blockquote">
+              <p>Indeed, with hardship comes ease. </p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              94:5 <cite title="Quran">Quran</cite>
+            </figcaption>
+            Copyright &copy;
+          </figure>
+    </footer>
+</html>

@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: #f6ece8;
+}
+.dark-mode{
+    background-color: #1f1e1e;
+    color: #9e5d41;
+}
+.card-dark-mode{
+    background-color: #3b3a3a!important;
+    color: white;
+}
+
+.modal{
+    position: fixed;
+    height: 50%;
+    width: 50%;
+    left: 30%;
+    top: 30%;
+    z-index: 1000;
+    background-color: #e3c7bb;
+    border-radius: 10px;
+    opacity: 0;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+}
+.modal-dark{
+    background-color: #3b3a3a;
+    color: #e3c7bb;
+}
+input{
+    margin: 10px;
+    display: block;
+    width:75%;
+    padding: 10px;
+    border: 1px solid #9e5d41;
+    height: 30px;
+}
+.button{
+  background-color: #fff;
+  border-radius: 24px;
+  color: rgb(0, 0, 0);
+  border: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  font-size: 14px;
+  height: 48px;
+  padding: 2px 24px;
+  text-align: center;
+}
+
+.button:hover {
+  background: #F6F9FE;
+  color: #be7d61;
+}
+
+#dark{
+    margin-top: 50px;
+    float: right;
+}
+
+#topB{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    opacity: 0;
+}
+
+.showTop{
+    opacity: 1!important;
+}
+h2 #greeting {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+    transform-origin: 50% 100%;
+    display: inline-block;
+    line-height: 1em;
+    opacity: 0;
+}
+#myCard{
+    background-color: #e3c7bb;
+}
+
+#my_img{
+    margin: 20px;
+    width: 80%;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: -37px 32px 29px -7px rgba(0,0,0,0.51);
+}
+
+#myName{
+    color: #9e5d41;
+}
+
+h2, h3{
+    color: #9e5d41;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #be7d61;
+}
+
+li{
+    list-style-image: url(img/list.png);
+    list-style-position: inside;
+    margin: 10px;
+}
+
+.border{
+    margin: 30px;
+    background-color: #be7d61;
+}
+
+#introduction:hover, #contact:hover, #edu:hover, #prog_lang:hover,
+#hobbies:hover, #languages:hover{
+   background-color: #e3c7bb;
+}
+
+#add_info, #greeting{
+    margin: 50px 0px;
+}
+
